@@ -1,11 +1,12 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #424874;
+  --secondary-color: #f1e9f1;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
   margin-top: 100px;
   font-family: "Quicksand", sans-serif;
+  background-color: var(--secondary-color);
 }
 h1,
 h2,
@@ -79,10 +80,14 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 25px;
   text-decoration: none;
+  margin-top: 8px;
 }
 
 .email-link:hover {
   text-decoration: underline;
+}
+.col-sm-4 {
+  background: var(--primary-color);
 }
